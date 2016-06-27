@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .container-fluid
+    form(role="form")
+      input#input.form-control(type="number",placeholder="enter number",required)
+      br
+      input#submit.btn.btn-default(type="submit")
+      br
+    #results
+    script(type="text/javascript",src="http://code.jquery.com/jquery-1.10.2.min.js")
+    script(type="text/javascript",src="./javascripts/main.js")
